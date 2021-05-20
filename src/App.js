@@ -2,28 +2,28 @@ import React from "react";
 
 function Food({ name, pic }) {
   return <div>
-    
       <h1>I like {name}</h1>
-      <img src={ pic } />
+      <img src ={pic} alt={name}/>
     </div>
 }
 
 const foodILike = [
   {
     name: "Cookie",
-    image: "./image/gbcookie.png"
+    image: 
+      "/image/gbcookie.png"
   }, 
   {
     name: "macaroon",
-    image: "./image/ydmacaroon.png"
+    image: "/image/ydmacaroon.png"
   },
   {
     name: "pancake",
-    image: "./image/jjpancake.jpeg"
+    image: "/image/jjpancake.jpeg"
   },
   {
     name: "scone",
-    image: "./image/jjscone.jpeg"
+    image: "/image/jjscone.jpeg"
   }
 ]
 
