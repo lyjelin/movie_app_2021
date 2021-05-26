@@ -20,8 +20,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "clean" : "gh-pages-clean" 
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/lyjelin/movie_app_2021"
+  "homepage": "https://lyjelin.github.io/movie_app_2021/"
 }
